@@ -1,13 +1,15 @@
 
 /*
-#02b3e4
-#7d97ad
-#2d3c49
+#B2750A
+#FFB637
+#FFAD1E
+#0055B2
+#3A98FF
 */
 
 body{
-    background-color: none;
-    color:#2d3c49;
+    background-color: black;
+    color:#B2750A;
 }
 
 #header {
@@ -29,7 +31,7 @@ header > h2 {
     font-family: 'Lato', sans-serif;
     position: relative;
     transform: translateY(50%); 
-    border-bottom: #2d3c49 solid;
+    border-bottom: #B2750Av solid;
 }
 
  #logo {
@@ -38,4 +40,12 @@ header > h2 {
     top: 10px;
     left: 12px;
      width: 40px;
+     border-radius: 50%;
 }
+
+.img-left{
+position: absolute;
+top: 300px;
+left: 200px;
+}
+
