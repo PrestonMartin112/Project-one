@@ -5,3 +5,37 @@
 #2d3c49
 */
 
+body{
+    background-color: none;
+    color:#2d3c49;
+}
+
+#header {
+    background-color: none;
+    min-height: 80px;
+ }
+
+header > h1 {
+    margin:0;
+    text-align: right;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    transform: translateY(50%); 
+}
+
+header > h2 {
+    margin:0;
+    text-align: right;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    transform: translateY(50%); 
+    border-bottom: #2d3c49 solid;
+}
+
+ #logo {
+    background-image: url(img/bg.jpeg);
+    position: absolute;
+    top: 10px;
+    left: 12px;
+     width: 40px;
+}
