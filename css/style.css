@@ -61,29 +61,26 @@ left: 545px;
 */
 #favorite-sites {
     text-align: left;
-    transform: translateY(100%);
-    
+    transform: translateY(50%);
+    justify-content: space-around;
 }
 #favorite-sites ul  {
-    list-style-type: none;
+    list-style-type: inherit;
     display: flex; 
     justify-content: space-around;
     margin: 0;
-    padding: 40px;
+    padding: 30px;
 }
 
-.favorite-sites > .row > .col-md-4 > img {
+#favorite-sites > .row > .col-md-4 > img {
     margin: 0 auto;
+    padding-right: 30px;
 }
-
-
-#main-content-wrapper article h2 {
+#favorite-sites > .row > .col-md-4 > h2{
     text-align: center;
 }
-#main-content-wrapper article p {
-    margin-top:0 auto;
-    transform: translateY(0%)
-}
+    
+    
 }
 .max-width {
     margin: 0 auto;
