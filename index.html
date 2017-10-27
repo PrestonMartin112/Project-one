@@ -13,7 +13,7 @@
       href="css/style.css">
 <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
 <link rel="stylesheet" type='text/css' href="css/framework.css">
-    <title>Why did you click this?!?!?!?!?</title>
+    <title>Why did you click this?!?</title>
     </head>
     <body>
        <div class="container-fluid">
@@ -35,45 +35,48 @@
      <div id='favorite-sites' class='row'>
              <div class="row">
                <div class='col-md-4 border'>
-                 <img class="img-responsive" src='images/red%20panda%20attack.jpg'>
+                <img id="myImg" src="images/red%20panda%20attack.jpg" alt="This is my Favorite animal ever the red panda." width="300" height="200">
+                  <div id="myModal" class="modal">
+                  <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                   </div>  
                    <h2>Cooliest Animal</h2>
                     </div>
                <div class='col-md-4 border'>
-             <img class="img-responsive" data-toggle="modal" data-target="#css3_modal" src="images/gaming%20pic.jpg">
+                <img id="myImg" src="images/gaming%20pic.jpg" alt="My hobbies consist of Playing video games and collecting wrestling singlets." width="300" height="200">
+                  <div id="myModal" class="modal">
+                  <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                   </div>  
                    <h2>Hobbies</h2>
                  </div>
                <div class='col-md-4 border'>
-                 <img class="img-responsive" src="images/music.jpg">
+                <img id="myImg" src="images/music.jpg" alt="I almost must have music and gum around me at all time." width="300" height="200">
+                    <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                   </div>  
                    <h2>Must Haves</h2>
                  </div>
                  <div class='col-md-4 border'>
-                 <img class="img-responsive" src="images/Football%20and%20wrestling.jpg">
+                  <img id="myImg" src="images/Football%20and%20wrestling.jpg" alt="Wrestling, Football and Pole Vault are my three main sports." width="300" height="200">
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+<img class="modal-content" id="img01">
+ <div id="caption"></div>
+</div>  
                      <h2>Sports</h2>
                  </div>
                 </div> 
             </div>
-           <div class="modal fade" id="css3_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-      </div>
-      <div class="modal-body">
-       <div class='img-modal'>
-          <img src= 'images/css3.png'>
-          </div>
-          <br>
-          <p><strong>CSS3</strong>(Cascading Style Sheets) is a style sheet language used for describing the presentation of a document written in a markup language.[1] Although most often used to set the visual style of web pages and user interfaces written in HTML and XHTML, the language can be applied to any XML document, including plain XML, SVG and XUL, and is applicable to rendering in speech, or on other media.</p>
-          <p>Source:</p><span><a href='https://en.wikipedia.org/wiki/Cascading_Style_Sheets'>https://en.wikipedia.org/wiki/Cascading_Style_Sheets</a></span>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        
-      </div>
-    </div>
-  </div>
-</div>
+
+<script src="css/jquery-3.2.1.min.js"></script>
+<script src="css/bootstrap-3.3.7-dist.lnk"></script>
+<script src="js/main.js" ></script>
+           
 </body>
         
         
